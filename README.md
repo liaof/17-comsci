@@ -36,7 +36,7 @@ Performance gains when accessing local variables vs. lookups on the global scope
 
 #### Factory Function
 a function that produces objects, returns object literals</br>
-const tiger = function() {
+const tiger = function() {</br>
 --const noise = 'roar';</br>
 --return {</br>
 ----sound: function() {</br>
@@ -45,8 +45,9 @@ const tiger = function() {
 --}</br>
 }</br>
 
-const tigger = tiger();
+const tigger = tiger();</br>
 tigger.sound(); //=> "roar"
+
 ### Other Definitions</br>
 Thread of Execution TOE - the line of code currently being executed.
 
