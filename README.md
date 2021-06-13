@@ -19,12 +19,12 @@ The shift() method removes items from the front of the array queue and push adds
 is a function that contains references to its surrounding state. Created when a function is returned.
 Lets us access the outer scope containing the variable count.
 </br> For Example:</br> 
- function counter() {</br>
-   let count = 0;</br>
-   return function() {</br>
-     return count++;</br>
-   }</br>
- }</br> 
+    function counter() {</br>
+        let count = 0;</br>
+        return function() {</br>
+            return count++;</br>
+        }</br>
+    }</br> </br> 
 the surrounding lexical environment here would belong to counter, which is { count: 0, anonymous(): f() { return count++; }. Note how in the closure function we return count, a variable not initialised in the closure.</br>
 
 ##### Benefits of Closure</br>
