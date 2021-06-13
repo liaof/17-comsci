@@ -2,7 +2,7 @@
 
 ### Building Blocks of JS
 ![](./Images/400-javascript-parts.png)</br>An example of how each part plays a role in how Javascript works.
-
+-----------------------------------------------------------------------------
 JavaScript is comprised of three data structures: a stack, a queue, and a heap.
 Stack and Queue are linear data structures because they have a start and end. A heap is a 
 2D structure with a hierarchical organization.
